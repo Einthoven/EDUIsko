@@ -51,10 +51,16 @@ namespace EDUIsko
 
         private void Load1_Click(object sender, EventArgs e)
         {
-            TitleBox.Text = notes.Rows[NotesList.CurrentCell.RowIndex].ItemArray[0].ToString();
-            NotesBox.Text = notes.Rows[NotesList.CurrentCell.RowIndex].ItemArray[1].ToString();
-            DateBox.Text = notes.Rows[NotesList.CurrentCell.RowIndex].ItemArray[2].ToString();
-            editing = true;
+            try
+            {
+                TitleBox.Text = notes.Rows[NotesList.CurrentCell.RowIndex].ItemArray[0].ToString();
+                NotesBox.Text = notes.Rows[NotesList.CurrentCell.RowIndex].ItemArray[1].ToString();
+                DateBox.Text = notes.Rows[NotesList.CurrentCell.RowIndex].ItemArray[2].ToString();
+                editing = true;
+            }
+            catch {
+                MessageBox.Show("Nothing to Load");
+            }
         }
 
         private void NewNote_Click(object sender, EventArgs e)

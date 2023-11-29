@@ -57,6 +57,12 @@
     <Compile Include="User Control\Account1.Designer.cs">
       <DependentUpon>Account1.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Control\Calculator User Controls\DayForCalendar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\Calculator User Controls\DayForCalendar.Designer.cs">
+      <DependentUpon>DayForCalendar.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Control\Calendar1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -71,6 +77,12 @@
     </Compile>
     <Compile Include="User Control\ContactUS1.Designer.cs">
       <DependentUpon>ContactUS1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\Calculator User Controls\Dayblank.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\Calculator User Controls\Dayblank.Designer.cs">
+      <DependentUpon>Dayblank.cs</DependentUpon>
     </Compile>
     <Compile Include="User Control\Expenses.cs">
       <SubType>UserControl</SubType>
@@ -107,11 +119,17 @@
     <EmbeddedResource Include="User Control\Account1.resx">
       <DependentUpon>Account1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="User Control\Calculator User Controls\DayForCalendar.resx">
+      <DependentUpon>DayForCalendar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User Control\Calendar1.resx">
       <DependentUpon>Calendar1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Control\ContactUS1.resx">
       <DependentUpon>ContactUS1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\Calculator User Controls\Dayblank.resx">
+      <DependentUpon>Dayblank.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Control\Expenses.resx">
       <DependentUpon>Expenses.cs</DependentUpon>
@@ -151,6 +169,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\NotePad Icon35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home Icon 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar Icon 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expenses Icon 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContactUs Icon 40.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
