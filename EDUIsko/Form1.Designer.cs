@@ -37,17 +37,21 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.NotePad = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Expenses = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Calendar = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.Pomodoro = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.ContactUS = new System.Windows.Forms.Button();
             this.sideBarTimer = new System.Windows.Forms.Timer(this.components);
             this.panel7 = new System.Windows.Forms.Panel();
             this.home11 = new EDUIsko.Home1();
             this.notes11 = new EDUIsko.Notes1();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.calendar11 = new EDUIsko.Calendar1();
+            this.expenses1 = new EDUIsko.Expenses();
+            this.pomodoro11 = new EDUIsko.User_Control.Pomodoro1();
+            this.contactUS11 = new EDUIsko.User_Control.ContactUS1();
             this.sideBarContainer.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -76,7 +80,7 @@
             this.sideBarContainer.MaximumSize = new System.Drawing.Size(200, 1080);
             this.sideBarContainer.MinimumSize = new System.Drawing.Size(75, 450);
             this.sideBarContainer.Name = "sideBarContainer";
-            this.sideBarContainer.Size = new System.Drawing.Size(200, 493);
+            this.sideBarContainer.Size = new System.Drawing.Size(75, 493);
             this.sideBarContainer.TabIndex = 0;
             this.sideBarContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.sideBarContainer_Paint);
             // 
@@ -90,7 +94,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::EDUIsko.Properties.Resources.home40;
+            this.pictureBox1.Image = global::EDUIsko.Properties.Resources.home;
             this.pictureBox1.Location = new System.Drawing.Point(9, 7);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(41, 45);
@@ -111,7 +115,6 @@
             // 
             this.Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Home.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Home.Image = global::EDUIsko.Properties.Resources.home40;
             this.Home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Home.Location = new System.Drawing.Point(-10, -2);
             this.Home.Name = "Home";
@@ -134,83 +137,106 @@
             // NotePad
             // 
             this.NotePad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NotePad.Image = global::EDUIsko.Properties.Resources.home40;
+            this.NotePad.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NotePad.Image = global::EDUIsko.Properties.Resources.NotePad_Icon35;
             this.NotePad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.NotePad.Location = new System.Drawing.Point(-10, -2);
             this.NotePad.Name = "NotePad";
             this.NotePad.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
             this.NotePad.Size = new System.Drawing.Size(217, 58);
             this.NotePad.TabIndex = 2;
-            this.NotePad.Text = "                              NotePad";
+            this.NotePad.Text = "                    NotePad";
             this.NotePad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.NotePad.UseVisualStyleBackColor = true;
             this.NotePad.Click += new System.EventHandler(this.NotePad_Click);
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.button2);
+            this.panel4.Controls.Add(this.Expenses);
             this.panel4.Location = new System.Drawing.Point(3, 200);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(197, 54);
             this.panel4.TabIndex = 2;
             // 
-            // button2
+            // Expenses
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::EDUIsko.Properties.Resources.home40;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(-10, -2);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(217, 58);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "                              Expenses";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = true;
+            this.Expenses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Expenses.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Expenses.Location = new System.Drawing.Point(-10, -2);
+            this.Expenses.Name = "Expenses";
+            this.Expenses.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
+            this.Expenses.Size = new System.Drawing.Size(217, 58);
+            this.Expenses.TabIndex = 2;
+            this.Expenses.Text = "                              Expenses";
+            this.Expenses.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Expenses.UseVisualStyleBackColor = true;
+            this.Expenses.Click += new System.EventHandler(this.Expenses_Click);
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.button3);
+            this.panel5.Controls.Add(this.Calendar);
             this.panel5.Location = new System.Drawing.Point(3, 260);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(197, 54);
             this.panel5.TabIndex = 2;
             // 
-            // button3
+            // Calendar
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Image = global::EDUIsko.Properties.Resources.home40;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(-10, -2);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(217, 58);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "                              Calendar";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = true;
+            this.Calendar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Calendar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Calendar.Location = new System.Drawing.Point(-10, -2);
+            this.Calendar.Name = "Calendar";
+            this.Calendar.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
+            this.Calendar.Size = new System.Drawing.Size(217, 58);
+            this.Calendar.TabIndex = 2;
+            this.Calendar.Text = "                              Calendar";
+            this.Calendar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Calendar.UseVisualStyleBackColor = true;
+            this.Calendar.Click += new System.EventHandler(this.Calendar_Click);
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.button4);
+            this.panel6.Controls.Add(this.Pomodoro);
             this.panel6.Location = new System.Drawing.Point(3, 320);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(197, 54);
             this.panel6.TabIndex = 2;
             // 
-            // button4
+            // Pomodoro
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Image = global::EDUIsko.Properties.Resources.home40;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(-10, -2);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(217, 58);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "                              Pomodoro";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = true;
+            this.Pomodoro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Pomodoro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Pomodoro.Location = new System.Drawing.Point(-10, -2);
+            this.Pomodoro.Name = "Pomodoro";
+            this.Pomodoro.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
+            this.Pomodoro.Size = new System.Drawing.Size(217, 58);
+            this.Pomodoro.TabIndex = 2;
+            this.Pomodoro.Text = "                              Pomodoro";
+            this.Pomodoro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Pomodoro.UseVisualStyleBackColor = true;
+            this.Pomodoro.Click += new System.EventHandler(this.Pomodoro_Click);
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.ContactUS);
+            this.panel8.Location = new System.Drawing.Point(3, 380);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(197, 54);
+            this.panel8.TabIndex = 3;
+            // 
+            // ContactUS
+            // 
+            this.ContactUS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ContactUS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ContactUS.Location = new System.Drawing.Point(-10, -2);
+            this.ContactUS.Name = "ContactUS";
+            this.ContactUS.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
+            this.ContactUS.Size = new System.Drawing.Size(217, 58);
+            this.ContactUS.TabIndex = 2;
+            this.ContactUS.Text = "                                 Contact Us";
+            this.ContactUS.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ContactUS.UseVisualStyleBackColor = true;
+            this.ContactUS.Click += new System.EventHandler(this.ContactUS_Click);
             // 
             // sideBarTimer
             // 
@@ -250,27 +276,39 @@
             this.notes11.Size = new System.Drawing.Size(770, 437);
             this.notes11.TabIndex = 3;
             // 
-            // panel8
+            // calendar11
             // 
-            this.panel8.Controls.Add(this.button1);
-            this.panel8.Location = new System.Drawing.Point(3, 380);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(197, 54);
-            this.panel8.TabIndex = 3;
+            this.calendar11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.calendar11.Location = new System.Drawing.Point(75, 58);
+            this.calendar11.Name = "calendar11";
+            this.calendar11.Size = new System.Drawing.Size(770, 437);
+            this.calendar11.TabIndex = 4;
             // 
-            // button1
+            // expenses1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::EDUIsko.Properties.Resources.home40;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(-10, -2);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(217, 58);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "                              Contact US";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = true;
+            this.expenses1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.expenses1.Location = new System.Drawing.Point(75, 58);
+            this.expenses1.Name = "expenses1";
+            this.expenses1.Size = new System.Drawing.Size(770, 437);
+            this.expenses1.TabIndex = 5;
+            // 
+            // pomodoro11
+            // 
+            this.pomodoro11.Location = new System.Drawing.Point(75, 58);
+            this.pomodoro11.Name = "pomodoro11";
+            this.pomodoro11.Size = new System.Drawing.Size(770, 437);
+            this.pomodoro11.TabIndex = 6;
+            // 
+            // contactUS11
+            // 
+            this.contactUS11.Location = new System.Drawing.Point(75, 58);
+            this.contactUS11.Name = "contactUS11";
+            this.contactUS11.Size = new System.Drawing.Size(770, 437);
+            this.contactUS11.TabIndex = 7;
             // 
             // Form1
             // 
@@ -280,6 +318,10 @@
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.home11);
             this.Controls.Add(this.notes11);
+            this.Controls.Add(this.calendar11);
+            this.Controls.Add(this.expenses1);
+            this.Controls.Add(this.pomodoro11);
+            this.Controls.Add(this.contactUS11);
             this.Name = "Form1";
             this.Text = "EDUIsko";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -305,18 +347,22 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button NotePad;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Expenses;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button Calendar;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button Pomodoro;
         private System.Windows.Forms.Timer sideBarTimer;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel7;
         private Home1 home11;
         private Notes1 notes11;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ContactUS;
+        private Calendar1 calendar11;
+        private Expenses expenses1;
+        private User_Control.Pomodoro1 pomodoro11;
+        private User_Control.ContactUS1 contactUS11;
     }
 }
 

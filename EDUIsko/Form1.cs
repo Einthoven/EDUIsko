@@ -13,7 +13,6 @@ namespace EDUIsko
     public partial class Form1 : Form
     {
         bool Slide;
-        bool UserControlSlide;
         public Form1()
         {
             InitializeComponent();
@@ -31,6 +30,10 @@ namespace EDUIsko
                 sideBarContainer.Width -= 10;
                 home11.Left -= 9;
                 notes11.Left -= 9;
+                calendar11.Left -= 9;
+                expenses1.Left -= 9;
+                pomodoro11.Left -= 9;
+                contactUS11.Left -= 9;
                     if (sideBarContainer.Width == sideBarContainer.MinimumSize.Width)
                 {
                     Slide = false;
@@ -42,6 +45,10 @@ namespace EDUIsko
                 sideBarContainer.Width += 10;
                 home11.Left += 9;
                 notes11.Left += 9;
+                calendar11.Left += 9;
+                expenses1.Left += 9;
+                pomodoro11.Left += 9;
+                contactUS11.Left += 9;
                 if (sideBarContainer.Width == sideBarContainer.MaximumSize.Width) {
                     Slide = true;
                     sideBarTimer.Stop();
@@ -70,6 +77,30 @@ namespace EDUIsko
         private void sideBarContainer_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Calendar_Click(object sender, EventArgs e)
+        {
+            calendar11.BringToFront();
+            sideBarContainer.BringToFront();
+        }
+
+        private void Expenses_Click(object sender, EventArgs e)
+        {
+            expenses1.BringToFront();
+            sideBarContainer.BringToFront();
+        }
+
+        private void Pomodoro_Click(object sender, EventArgs e)
+        {
+            pomodoro11.BringToFront();
+            sideBarContainer.BringToFront();
+        }
+
+        private void ContactUS_Click(object sender, EventArgs e)
+        {
+            contactUS11.BringToFront();
+            sideBarContainer.BringToFront();
         }
     }
 

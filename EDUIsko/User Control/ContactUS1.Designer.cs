@@ -38,7 +38,7 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(530, 112);
             this.richTextBox1.TabIndex = 6;
-            this.richTextBox1.Text = "POMODORO";
+            this.richTextBox1.Text = "Contact Us";
             // 
             // ContactUS1
             // 
