@@ -51,24 +51,32 @@
             // 
             // Previous
             // 
+            this.Previous.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
+            this.Previous.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Previous.FlatAppearance.BorderSize = 2;
+            this.Previous.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Previous.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Previous.Location = new System.Drawing.Point(458, 444);
             this.Previous.Name = "Previous";
             this.Previous.Size = new System.Drawing.Size(95, 30);
             this.Previous.TabIndex = 1;
             this.Previous.Text = "Previous";
-            this.Previous.UseVisualStyleBackColor = true;
+            this.Previous.UseVisualStyleBackColor = false;
             this.Previous.Click += new System.EventHandler(this.Previous_Click);
             // 
             // Next1
             // 
+            this.Next1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
+            this.Next1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Next1.FlatAppearance.BorderSize = 2;
+            this.Next1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Next1.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Next1.Location = new System.Drawing.Point(559, 444);
             this.Next1.Name = "Next1";
             this.Next1.Size = new System.Drawing.Size(95, 30);
             this.Next1.TabIndex = 2;
             this.Next1.Text = "Next";
-            this.Next1.UseVisualStyleBackColor = true;
+            this.Next1.UseVisualStyleBackColor = false;
             this.Next1.Click += new System.EventHandler(this.Next1_Click);
             // 
             // label1

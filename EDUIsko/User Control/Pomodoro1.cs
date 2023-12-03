@@ -70,6 +70,7 @@ namespace EDUIsko.User_Control
             PomodoroTimer1.Stop();
             Minute1.Text = "00";
             Seconds1.Text = "00";
+            this.timeleft = 0;
         }
     }
 }
