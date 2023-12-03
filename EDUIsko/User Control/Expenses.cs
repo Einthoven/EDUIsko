@@ -68,7 +68,7 @@ namespace EDUIsko
 
             foreach (DataRow row in notes.Rows)
             {
-                // Check if the "Cost" column is not null
+
                 if (row["Cost"] != DBNull.Value)
                 {
                     TotalSum += Convert.ToDouble(row["Cost"]);
@@ -79,7 +79,7 @@ namespace EDUIsko
                 }
             }
 
-            MessageBox.Show($"Total Sum: {TotalSum}");
+            MessageBox.Show($"Total Sum: PHP {TotalSum}", "Cost");
 
         }
     }

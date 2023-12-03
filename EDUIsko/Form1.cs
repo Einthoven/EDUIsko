@@ -61,7 +61,7 @@ namespace EDUIsko
             sideBarTimer.Start();
         }
 
-        private void Home_Click(object sender, EventArgs e)
+        private void Calculator_Click(object sender, EventArgs e)
         {
 
             home11.BringToFront();
