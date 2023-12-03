@@ -182,5 +182,14 @@
   <ItemGroup>
     <None Include="Resources\ContactUs Icon 40.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fb.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
