@@ -75,7 +75,7 @@ namespace EDUIsko
                 }
                 else
                 {
-                    break;
+                    MessageBox.Show("Nothing to Add", "Cost");
                 }
             }
 

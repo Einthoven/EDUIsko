@@ -35,13 +35,13 @@ namespace EDUIsko
 
             }
 
-
             SaveFileDialog Dialog = new SaveFileDialog();
             Dialog.Title = "Save";
             Dialog.Filter = "Text Document(*.txt)|*.txt|All Files(*.*)|*.*";
             if (Dialog.ShowDialog() == DialogResult.OK)
                 NotesBox.SaveFile(Dialog.FileName, RichTextBoxStreamType.PlainText);
             this.Text = Dialog.FileName;
+
 
             TitleBox.Text = "";
             NotesBox.Text = "";

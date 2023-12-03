@@ -20,21 +20,21 @@ namespace EDUIsko.User_Control
 
         private void Facebook_Click(object sender, EventArgs e)
         {
-            string facebookUrl = "https://www.facebook.com/KARYLE.EXO";
+            string facebookUrl = "https://www.facebook.com/profile.php?id=61551647981109&mibextid=9R9pXO";
 
             Process.Start(facebookUrl);
         }
 
         private void Twitter_Click(object sender, EventArgs e)
         {
-            string twitterURL = "https://x.com/ae_klry?t=a0qsIexlCdDnEwq4JCf12w&s=09";
+            string twitterURL = "https://twitter.com/EduIsko21362";
 
             Process.Start(twitterURL);
         }
 
         private void Instagram_Click(object sender, EventArgs e)
         {
-            string InstagramURL = "https://instagram.com/https.kryl?igshid=NGVhN2U2NjQ0Yg==";
+            string InstagramURL = "https://www.instagram.com/eduisko/";
 
             Process.Start(InstagramURL);
         }
