@@ -123,6 +123,16 @@ namespace EDUIsko.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HomeCottage {
+            get {
+                object obj = ResourceManager.GetObject("HomeCottage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap insta {
             get {
                 object obj = ResourceManager.GetObject("insta", resourceCulture);
@@ -136,6 +146,26 @@ namespace EDUIsko.Properties {
         internal static System.Drawing.Bitmap NotePad_Icon35 {
             get {
                 object obj = ResourceManager.GetObject("NotePad Icon35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap timer__1_ {
+            get {
+                object obj = ResourceManager.GetObject("timer (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap timer_40 {
+            get {
+                object obj = ResourceManager.GetObject("timer 40", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
