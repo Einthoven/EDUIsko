@@ -45,6 +45,8 @@
             this.Divide1 = new System.Windows.Forms.Button();
             this.Minus1 = new System.Windows.Forms.Button();
             this.valueBox1 = new System.Windows.Forms.TextBox();
+            this.Clear1 = new System.Windows.Forms.Button();
+            this.Delete1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // One1
@@ -247,12 +249,13 @@
             this.Multiply1.FlatAppearance.BorderSize = 2;
             this.Multiply1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Multiply1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Multiply1.Location = new System.Drawing.Point(429, 273);
+            this.Multiply1.Location = new System.Drawing.Point(445, 184);
             this.Multiply1.Name = "Multiply1";
-            this.Multiply1.Size = new System.Drawing.Size(248, 60);
+            this.Multiply1.Size = new System.Drawing.Size(96, 80);
             this.Multiply1.TabIndex = 17;
             this.Multiply1.Text = "x";
             this.Multiply1.UseVisualStyleBackColor = false;
+            this.Multiply1.Click += new System.EventHandler(this.Multiply1_Click);
             // 
             // Plus1
             // 
@@ -262,9 +265,9 @@
             this.Plus1.FlatAppearance.BorderSize = 2;
             this.Plus1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Plus1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Plus1.Location = new System.Drawing.Point(429, 115);
+            this.Plus1.Location = new System.Drawing.Point(445, 81);
             this.Plus1.Name = "Plus1";
-            this.Plus1.Size = new System.Drawing.Size(248, 60);
+            this.Plus1.Size = new System.Drawing.Size(96, 80);
             this.Plus1.TabIndex = 18;
             this.Plus1.Text = "+";
             this.Plus1.UseVisualStyleBackColor = false;
@@ -278,12 +281,13 @@
             this.Divide1.FlatAppearance.BorderSize = 2;
             this.Divide1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Divide1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Divide1.Location = new System.Drawing.Point(429, 346);
+            this.Divide1.Location = new System.Drawing.Point(564, 184);
             this.Divide1.Name = "Divide1";
-            this.Divide1.Size = new System.Drawing.Size(248, 60);
+            this.Divide1.Size = new System.Drawing.Size(96, 80);
             this.Divide1.TabIndex = 19;
             this.Divide1.Text = "/";
             this.Divide1.UseVisualStyleBackColor = false;
+            this.Divide1.Click += new System.EventHandler(this.Divide1_Click);
             // 
             // Minus1
             // 
@@ -293,9 +297,9 @@
             this.Minus1.FlatAppearance.BorderSize = 2;
             this.Minus1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Minus1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Minus1.Location = new System.Drawing.Point(429, 194);
+            this.Minus1.Location = new System.Drawing.Point(564, 81);
             this.Minus1.Name = "Minus1";
-            this.Minus1.Size = new System.Drawing.Size(248, 60);
+            this.Minus1.Size = new System.Drawing.Size(96, 80);
             this.Minus1.TabIndex = 20;
             this.Minus1.Text = "-";
             this.Minus1.UseVisualStyleBackColor = false;
@@ -310,10 +314,44 @@
             this.valueBox1.Size = new System.Drawing.Size(252, 71);
             this.valueBox1.TabIndex = 21;
             // 
+            // Clear1
+            // 
+            this.Clear1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Clear1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
+            this.Clear1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Clear1.FlatAppearance.BorderSize = 2;
+            this.Clear1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Clear1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Clear1.Location = new System.Drawing.Point(445, 296);
+            this.Clear1.Name = "Clear1";
+            this.Clear1.Size = new System.Drawing.Size(96, 80);
+            this.Clear1.TabIndex = 22;
+            this.Clear1.Text = "Clear";
+            this.Clear1.UseVisualStyleBackColor = false;
+            this.Clear1.Click += new System.EventHandler(this.Clear1_Click);
+            // 
+            // Delete1
+            // 
+            this.Delete1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Delete1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
+            this.Delete1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Delete1.FlatAppearance.BorderSize = 2;
+            this.Delete1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Delete1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Delete1.Location = new System.Drawing.Point(564, 296);
+            this.Delete1.Name = "Delete1";
+            this.Delete1.Size = new System.Drawing.Size(96, 80);
+            this.Delete1.TabIndex = 23;
+            this.Delete1.Text = "Delete";
+            this.Delete1.UseVisualStyleBackColor = false;
+            this.Delete1.Click += new System.EventHandler(this.Delete1_Click);
+            // 
             // Home1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.Delete1);
+            this.Controls.Add(this.Clear1);
             this.Controls.Add(this.valueBox1);
             this.Controls.Add(this.Minus1);
             this.Controls.Add(this.Divide1);
@@ -357,5 +395,7 @@
         private System.Windows.Forms.Button Divide1;
         private System.Windows.Forms.Button Minus1;
         private System.Windows.Forms.TextBox valueBox1;
+        private System.Windows.Forms.Button Clear1;
+        private System.Windows.Forms.Button Delete1;
     }
 }
