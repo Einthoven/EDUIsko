@@ -51,7 +51,7 @@
             // 
             // One1
             // 
-            this.One1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.One1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.One1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.One1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.One1.FlatAppearance.BorderSize = 2;
@@ -67,7 +67,7 @@
             // 
             // Two1
             // 
-            this.Two1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Two1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Two1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Two1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Two1.FlatAppearance.BorderSize = 2;
@@ -83,7 +83,7 @@
             // 
             // Three1
             // 
-            this.Three1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Three1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Three1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Three1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Three1.FlatAppearance.BorderSize = 2;
@@ -99,7 +99,7 @@
             // 
             // Four1
             // 
-            this.Four1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Four1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Four1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Four1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Four1.FlatAppearance.BorderSize = 2;
@@ -115,7 +115,7 @@
             // 
             // Five1
             // 
-            this.Five1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Five1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Five1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Five1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Five1.FlatAppearance.BorderSize = 2;
@@ -131,7 +131,7 @@
             // 
             // Six1
             // 
-            this.Six1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Six1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Six1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Six1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Six1.FlatAppearance.BorderSize = 2;
@@ -147,7 +147,7 @@
             // 
             // Seven1
             // 
-            this.Seven1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Seven1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Seven1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Seven1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Seven1.FlatAppearance.BorderSize = 2;
@@ -163,7 +163,7 @@
             // 
             // Eight1
             // 
-            this.Eight1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Eight1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Eight1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Eight1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Eight1.FlatAppearance.BorderSize = 2;
@@ -179,7 +179,7 @@
             // 
             // Nine1
             // 
-            this.Nine1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Nine1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Nine1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Nine1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Nine1.FlatAppearance.BorderSize = 2;
@@ -195,7 +195,7 @@
             // 
             // Zero1
             // 
-            this.Zero1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Zero1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Zero1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Zero1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Zero1.FlatAppearance.BorderSize = 2;
@@ -211,7 +211,7 @@
             // 
             // Decimal1
             // 
-            this.Decimal1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Decimal1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Decimal1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Decimal1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Decimal1.FlatAppearance.BorderSize = 2;
@@ -227,7 +227,7 @@
             // 
             // Equal1
             // 
-            this.Equal1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Equal1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Equal1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Equal1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Equal1.FlatAppearance.BorderSize = 2;
@@ -243,7 +243,7 @@
             // 
             // Multiply1
             // 
-            this.Multiply1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Multiply1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Multiply1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Multiply1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Multiply1.FlatAppearance.BorderSize = 2;
@@ -259,7 +259,7 @@
             // 
             // Plus1
             // 
-            this.Plus1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Plus1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Plus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Plus1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Plus1.FlatAppearance.BorderSize = 2;
@@ -275,7 +275,7 @@
             // 
             // Divide1
             // 
-            this.Divide1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Divide1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Divide1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Divide1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Divide1.FlatAppearance.BorderSize = 2;
@@ -291,7 +291,7 @@
             // 
             // Minus1
             // 
-            this.Minus1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Minus1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Minus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Minus1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Minus1.FlatAppearance.BorderSize = 2;
@@ -307,6 +307,7 @@
             // 
             // valueBox1
             // 
+            this.valueBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.valueBox1.Font = new System.Drawing.Font("Century", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.valueBox1.Location = new System.Drawing.Point(71, 28);
             this.valueBox1.Multiline = true;
@@ -316,7 +317,7 @@
             // 
             // Clear1
             // 
-            this.Clear1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Clear1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Clear1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Clear1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Clear1.FlatAppearance.BorderSize = 2;
@@ -332,7 +333,7 @@
             // 
             // Delete1
             // 
-            this.Delete1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Delete1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Delete1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(126)))), ((int)(((byte)(138)))));
             this.Delete1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Delete1.FlatAppearance.BorderSize = 2;
